@@ -1,0 +1,107 @@
+.appointment-input-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid #b5b7c4;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.input-element {
+  padding: 10px;
+  outline: none;
+  border: 2px solid #b5b7c4;
+  border-radius: 2px;
+  width: 40vw;
+  height: 30px;
+}
+.title {
+  color: #b5b7c4;
+  font-weight: 600;
+  margin-bottom: 2px;
+}
+.date {
+  margin-top: 16px;
+  color: #b5b7c4;
+  font-weight: 600;
+  margin-bottom: 2px;
+}
+.input-date {
+  padding: 10px;
+  outline: none;
+  border: 2px solid #b5b7c4;
+  border-radius: 2px;
+  width: 40vw;
+  height: 30px;
+}
+.add-button {
+  background-color: #8b5cf6;
+  border-radius: 8px;
+  color: white;
+  width: 60px;
+  height: 30px;
+  border-width: 0;
+  margin-top: 16px;
+}
+.appointment-image {
+  margin-left: 20px;
+  width: 30vw;
+}
+.appointment-starred {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.appointment-heading {
+  color: #171f46;
+  font-weight: bold;
+  font-size: 20px;
+}
+.starred-clicked {
+  border-radius: 10px;
+  border-width: 0;
+  color: white;
+  background-color: #9897f0;
+  width: 80px;
+  height: 30px;
+}
+.starred-click {
+  border-radius: 10px;
+  border: 2px solid #9897f0;
+  color: #9897f0;
+  background-color: #ffffff;
+  width: 80px;
+  height: 30px;
+}
+.appointments-container {
+  list-style-type: none;
+  padding-left: 0;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.bg-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to bottom, #fbc7d4, #9796f0);
+  height: 100vh;
+  background-size: cover;
+}
+.inner-container {
+  padding: 10px;
+  background-color: white;
+  width: 80vw;
+  border-radius: 10px;
+}
+.heading {
+  color: #171f46;
+  font-size: 4vw;
+}
